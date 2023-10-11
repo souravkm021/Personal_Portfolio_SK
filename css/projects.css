@@ -1,0 +1,42 @@
+/* softwareicon.css */
+ul.project-list {
+    list-style: none;
+    display: flex;
+    gap: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.project-list li {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #0a0a0aca;
+    margin-bottom: 10px; /* Adjust the margin between list items */
+}
+
+ul.project-list li p {
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Arial", sans-serif;
+    margin: 0; /* Remove default margin to prevent extra spacing */
+    padding: 0; /* Remove default padding to prevent extra spacing */
+}
+
+ul.project-list li p:nth-child(2) {
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Arial", sans-serif;
+    margin: 0; /* Remove default margin to prevent extra spacing */
+    padding: 0; /* Remove default padding to prevent extra spacing */
+}
+
+ul.project-list li img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+ul.project-list li p {
+    margin: 0; /* Remove the default margin for paragraphs */
+}
